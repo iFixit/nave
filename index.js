@@ -1,5 +1,5 @@
 var data = {files:[
-], merged_files:[{"link":"kcov-merged/index.html","title":"[merged]","summary_name":"[merged]","covered_class":"lineCov","covered":"100.0","covered_lines":"484","uncovered_lines":"0","total_lines" : "484"},
+], merged_files:[{"link":"kcov-merged/index.html","title":"[merged]","summary_name":"[merged]","covered_class":"lineCov","covered":"100.0","covered_lines":"527","uncovered_lines":"0","total_lines" : "527"},
 ]};
 var percent_low = 25;var percent_high = 75;
-var header = { "command" : "", "date" : "2022-03-18 00:33:01", "instrumented" : 484, "covered" : 484,};
+var header = { "command" : "", "date" : "2023-05-01 15:56:10", "instrumented" : 527, "covered" : 527,};
