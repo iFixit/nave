@@ -93,14 +93,7 @@ get_nave_dir () {
   NAVEUA="nave/$(curl --version | head -n1)"
 
   if [ -z "${NAVE_DIR+defined}" ]; then
-    if [ -d "$XDG_CONFIG_HOME" ] && ! [ -d "$HOME/.nave" ]; then
-      NAVE_DIR="$XDG_CONFIG_HOME"/nave
-    elif [ -d "$HOME" ]; then
-      NAVE_DIR="$HOME"/.nave
-    else
-      local prefix=${PREFIX:-/usr/local}
-      NAVE_DIR=$prefix/lib/nave
-    fi
+    NAVE_DIR="/home/ifixit/.nave"
   fi
   NAVE_SRC="$NAVE_DIR/src"
   NAVE_ROOT="$NAVE_DIR/installed"
